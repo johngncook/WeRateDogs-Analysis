@@ -19,6 +19,14 @@ pip install seaborn
 pip install matplotlib
 ```
 
+### The Data
+
+* twitter-archive-enhanced.csv is the main csv file containing data on the specific WeRateDogs tweets given as the starting data for the project.
+* image-predictions.tsv file given by Udacity containing data on neural network predictions of dog breeds based on their post images.
+* tweet_json.txt json file containing data that was taken directly from twitter using tweepy in order to get reweets numbers and favorite numbers for the tweets in the twitter-archive-enhanced.csv.
+* twitter_archive_master.csv master dataset containing the final product after data cleaning and merging variables from the other files. All set for analysis.
+
+
 ## Author
 
 * **John Cook** - *Initial work* - [johngncook](https://github.com/johngncook)
